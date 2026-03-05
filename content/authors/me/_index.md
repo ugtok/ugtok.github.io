@@ -32,7 +32,7 @@ education:
     institution: Cukurova University, Adana, Turkey
     date_start: 2007-09-01
     date_end: 2011-06-01
-    summary: Thesis: "Theory of Extra Dimensions and Superstrings."
+    summary: 'Thesis: "Theory of Extra Dimensions and Superstrings."'
 
 work:
   - position: HGCAL Si Sensor Tests Researcher
