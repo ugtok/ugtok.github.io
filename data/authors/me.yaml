@@ -2,115 +2,150 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: Ufuk Guney Tok
+  given: Ufuk Guney
+  family: Tok
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: Postdoctoral Researcher in High Energy Physics
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Applied high-energy physicist at CERN working on silicon detector instrumentation
+  for the CMS High Granularity Calorimeter (HGCAL) and new physics searches with
+  razor kinematic variables. Expertise in test beam analysis, QA/commissioning,
+  and data analysis in large HEP collaborations.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: CERN
+    url: https://home.cern/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ufuk.guney.tok@cern.ch
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/ugtok
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://www.linkedin.com/in/ufuk-guney-tok-302a40150
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-3039-021X
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Silicon Detector Instrumentation
+  - New Physics Searches (SUSY)
+  - Machine Learning & AI Applications
+  - Calorimetry & Test Beam Analysis
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in High Energy Physics
+    institution: Cukurova University, Adana, Turkey
+    start: 2015-01-01
+    end: 2024-01-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis: "Search for new physics with razor kinematic variables using 137 fb-1
+      of proton-proton collision UL data collected at sqrt(s) = 13 TeV."
+      Supervised by Prof. Aysel Kayis Topaksu and Assoc. Prof. Sezen Sekmen.
     button:
-      text: Download dissertation
-      url: /resume.pdf
+      text: Download CV
+      url: /cv/Cirriculum_Vitae_Ufuk_Guney_Tok_2026.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: BSc in Physics
+    institution: Cukurova University, Adana, Turkey
+    start: 2007-09-01
+    end: 2011-06-01
+    summary: 'Thesis: "Theory of Extra Dimensions and Superstrings."'
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: HGCAL Si Sensor Tests Researcher
+    org: CMS Collaboration, CERN
+    start: 2024-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Responsible person for HGCAL clean room activities at CERN Meyrin. Organizing
+      and leading the sensor team for Si sensor tests and validation. Electronic tests
+      of hexagonal Si sensors and development of hot cell analysis framework.
+  - role: Shifter Trainer (SL and TS)
+    org: CMS Collaboration, CERN
+    start: 2023-01-01
+    end: 2025-01-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Training and organization of CMS central data taking shifts for Shift Leaders
+      and Technical Shifters, working closely with CMS Run Coordination and Technical Coordination.
+  - role: ZDC Module Tests and Installation
+    org: CMS Collaboration, CERN
+    start: 2023-01-01
+    end: 2024-01-01
+    summary: |
+      Dark current measurements of PMTs for RPD detectors. Led a student team for
+      ZDC and HF Phase-0 PMT tests. Authored CMS Detector Note DN-2025/001.
+  - role: Physics Analyst - Razor Variables New Physics Search
+    org: CMS Collaboration
+    start: 2019-01-01
+    summary: |
+      Inclusive search for new physics (SUS-23-014) at sqrt(s) = 13 TeV with full Run-II data.
+      Trigger efficiency, Z->nunu background estimation, bin optimization, SUSY limit setting.
+  - role: Beamline Simulation - ECAL & HGCAL Test Beams
+    org: CMS Collaboration
+    start: 2019-01-01
+    end: 2021-12-31
+    summary: |
+      G4beamline simulations of SPS H4 and H2 beamlines for ECAL and HGCAL test beam analyses.
+  - role: HF Front-End Electronics Installation
+    org: CMS Collaboration, CERN
+    start: 2016-01-01
+    end: 2018-12-31
+    summary: |
+      Installation, testing and commissioning of Hadronic Forward (HF)
+      Front-End electronics and ROBOXes at CMS Point-5.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Frameworks
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: C++
         level: 4
-  - name: Research & Communication
+      - label: ROOT / RooStats / TMVA
+        level: 5
+      - label: CMSSW
+        level: 4
+      - label: NumPy / Pandas
+        level: 4
+  - name: Tools & Interests
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: Machine Learning & AI
         level: 4
-      - label: Grant Proposals
+      - label: G4beamline
         level: 4
+      - label: Git / LaTeX
+        level: 4
+      - label: VHDL
+        level: 3
 
 languages:
-  - name: English
+  - name: Turkish
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: "CS50's Introduction to Artificial Intelligence with Python"
+    awarder: HarvardX
+    date: "2025-01-01"
+    summary: Algorithms, search, knowledge representation, machine learning, and neural networks.
+    icon: hero/academic-cap
+  - title: CS50 Introduction to Computer Science
+    awarder: HarvardX
+    date: "2024-01-01"
+    summary: Algorithms, data structures, and software engineering principles.
+    icon: hero/academic-cap
+  - title: Design of Digital Circuits with VHDL Programming
+    awarder: Coursera
+    date: "2025-01-01"
+    summary: Digital circuit design using VHDL.
+    icon: hero/academic-cap
